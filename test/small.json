@@ -1,0 +1,171 @@
+[
+  {
+    "score": 11,
+    "title": "Story A",
+    "kids": [
+      {
+        "by": "user-a",
+        "id": 110,
+        "kids": [
+          {
+            "by": "user-b",
+            "id": 111,
+            "kids": [
+              {
+                "by": "user-c",
+                "id": 112,
+                "kids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "by": "user-b",
+        "id": 120,
+        "kids": [
+          {
+            "by": "user-c",
+            "id": 121,
+            "kids": []
+          }
+        ]
+      },
+      {
+        "by": "user-c",
+        "id": 130,
+        "kids": []
+      }
+    ]
+  },
+  {
+    "score": 22,
+    "title": "Story B",
+    "kids": [
+      {
+        "by": "user-a",
+        "id": 210,
+        "kids": []
+      },
+      {
+        "by": "user-b",
+        "id": 220,
+        "kids": [
+          {
+            "by": "user-a",
+            "id": 221,
+            "kids": []
+          }
+        ]
+      },
+      {
+        "by": "user-c",
+        "id": 230,
+        "kids": [
+          {
+            "by": "user-a",
+            "id": 231,
+            "kids": [
+              {
+                "by": "user-b",
+                "id": 234,
+                "kids": [
+                  {
+                    "by": "user-c",
+                    "id": 235,
+                    "kids": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "by": "user-b",
+            "id": 232,
+            "kids": [
+              {
+                "by": "user-a",
+                "id": 233,
+                "kids": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "score": 33,
+    "title": "Story C",
+    "kids": [
+      {
+        "by": "user-a",
+        "id": 300,
+        "kids": [
+          {
+            "by": "user-b",
+            "id": 301,
+            "kids": [
+              {
+                "by": "user-a",
+                "id": 302,
+                "kids": [
+                  {
+                    "by": "user-b",
+                    "id": 303,
+                    "kids": []
+                  },
+                  {
+                    "by": "user-b",
+                    "id": 304,
+                    "kids": [
+                      {
+                        "by": "user-a",
+                        "id": 305,
+                        "kids": [
+                          {
+                            "by": "user-b",
+                            "id": 1,
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "by": "user-c",
+        "id": 310,
+        "kids": [
+          {
+            "by": "user-a",
+            "id": 311,
+            "kids": [
+              {
+                "by": "user-b",
+                "id": 312,
+                "kids": [
+                  {
+                    "by": "user-c",
+                    "id": 313,
+                    "kids": []
+                  }
+                ]
+              },
+              {
+                "by": "user-c",
+                "id": 314,
+                "kids": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

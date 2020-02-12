@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Story A",
+    "commenters": [
+      { "count": 3, "name": "user-c" },
+      { "count": 2, "name": "user-b" },
+      { "count": 1, "name": "user-a" }
+    ]
+  },
+  {
+    "title": "Story B",
+    "commenters": [
+      { "count": 4, "name": "user-a" },
+      { "count": 3, "name": "user-b" },
+      { "count": 2, "name": "user-c" }
+    ]
+  },
+  {
+    "title": "Story C",
+    "commenters": [
+      { "count": 5, "name": "user-b" },
+      { "count": 4, "name": "user-a" },
+      { "count": 3, "name": "user-c" }
+    ]
+  }
+]

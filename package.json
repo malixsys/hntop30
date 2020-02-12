@@ -1,0 +1,42 @@
+{
+  "name": "hntop30",
+  "version": "1.0.0",
+  "author": "malixsys",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "next": "^9.1.8-canary.11",
+    "react": "latest",
+    "react-dom": "latest",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/react": "^5.3.13",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "file-loader": "^3.0.1",
+    "jest": "^25.1.0",
+    "prettier": "latest",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": true
+  },
+  "scripts": {
+    "dev": "next",
+    "now-build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
