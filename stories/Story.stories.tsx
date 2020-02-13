@@ -1,8 +1,8 @@
 import React from 'react';
-import { Stories } from '../components/Story';
 import { processStories } from '../utils/utils';
 import smallStories from '../test/small.json';
 import bigStories from '../test/top.json';
+import {Stories} from "../components/Stories";
 
 export default {
   title: 'Stories',

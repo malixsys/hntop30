@@ -1,6 +1,8 @@
 # Hacker News Top 30
 
-## Local
+## Development
+
+### Local install
 
 Install it and run:
 
@@ -12,7 +14,15 @@ yarn
 yarn dev
 ```
 
-## Deploy 
+### Storybook
+
+- Install optionalDependencies
+- Run
+    ```bash
+    npm run storybook
+    ```
+
+## Deployment 
 
 Deploy it using [ZEIT Now](https://zeit.co/now):
 
@@ -25,6 +35,7 @@ Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.
 ```bash
 now
 ```
-## Example 
 
-https://hntop30-eibiovt9m.now.sh
+### Example 
+
+https://hntop30.now.sh

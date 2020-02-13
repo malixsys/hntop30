@@ -1,28 +1,39 @@
 {
   "name": "hntop30",
+  "description": "Hacker News Top 30",
   "version": "1.0.0",
   "author": "malixsys",
   "license": "ISC",
   "private": true,
+  "repository": {
+    "url": "https://github.com/malixsys/hntop30"
+  },
   "dependencies": {
-    "next": "^9.1.8-canary.11",
+    "next": "canary",
     "react": "latest",
     "react-dom": "latest",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.84.0"
+    "semantic-ui-css": "latest",
+    "semantic-ui-react": "latest"
+  },
+  "optionalDependencies": {
+    "@storybook/addon-actions": "5.3.10",
+    "@storybook/addon-links": "5.3.10",
+    "@storybook/addons": "5.3.10",
+    "@storybook/react": "5.3.10"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
-    "@storybook/addon-actions": "^5.3.13",
-    "@storybook/addon-links": "^5.3.13",
-    "@storybook/addons": "^5.3.13",
-    "@storybook/react": "^5.3.13",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/node": "latest",
+    "@types/react": "latest",
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.1.1",
     "file-loader": "^3.0.1",
     "jest": "^25.1.0",
     "prettier": "latest",
+    "typescript": "latest",
     "url-loader": "^1.1.2",
     "webpack": "^4.29.0"
   },
@@ -33,6 +44,7 @@
   },
   "scripts": {
     "dev": "next",
+    "build": "npm run now-build",
     "now-build": "next build",
     "start": "next start",
     "test": "jest",

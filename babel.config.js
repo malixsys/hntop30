@@ -7,7 +7,7 @@ module.exports = {
       presets: ['next/babel']
     },
     test: {
-      presets: ['@babel/env', '@babel/react']
+      presets: [['@babel/preset-env', { targets: { node: 'current' } }], '@babel/preset-typescript']
     }
   }
 };

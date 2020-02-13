@@ -1,7 +1,7 @@
 import React from 'react';
-import {userHackerNews} from '../components/userHackerNews';
-import {Stories, Story} from '../components/Story';
-import {App} from "../components/App";
+import { userHackerNews } from '../components/userHackerNews';
+import { App } from '../components/App';
+import { Stories } from '../components/Stories';
 
 export default () => {
   const { stories, loading } = userHackerNews();

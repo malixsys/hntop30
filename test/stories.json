@@ -1,6 +1,8 @@
 [
   {
     "title": "Story A",
+    "loading": false,
+    "score": 11,
     "commenters": [
       { "count": 3, "name": "user-c" },
       { "count": 2, "name": "user-b" },
@@ -9,6 +11,8 @@
   },
   {
     "title": "Story B",
+    "loading": false,
+    "score":  22,
     "commenters": [
       { "count": 4, "name": "user-a" },
       { "count": 3, "name": "user-b" },
@@ -17,6 +21,8 @@
   },
   {
     "title": "Story C",
+    "loading": false,
+    "score":  33,
     "commenters": [
       { "count": 5, "name": "user-b" },
       { "count": 4, "name": "user-a" },
